@@ -1,0 +1,75 @@
+html {
+    background: linear-gradient(180deg, hsl(254, 19%, 25%) 0%, #46186c 100%);
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+button {
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#searchText {
+    width: 15vw;
+    height: 65px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#removeGifs {
+    background-color: red;
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#removeGifs:hover {
+    background-color: rgb(190, 4, 4);
+}
+
+#submitBtn {
+    background-color: hsl(254, 19%, 25%);
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#submitBtn:hover {
+    background-color: hsl(254, 20%, 17%);
+}
+
+
+#GIFContainer {
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+img {
+    margin: 5px 5px 5px 5px;
+}
